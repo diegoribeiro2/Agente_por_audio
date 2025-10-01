@@ -1,6 +1,6 @@
 # 📖 Projeto – Agent de Análise de Dados com LangChain e OpenAI  
 
-![Descrição da Imagem](assets/agent-demo.png)
+![Agent por Áudio]("Agente por audio.png")
 
 ---
 
@@ -71,12 +71,7 @@ Com este projeto, aprimorei minhas habilidades em:
 
 ---
 
-📌 Este foi um projeto transformador, que mostra como a união de diferentes tecnologias de IA pode criar experiências de interação muito mais naturais e inteligentes.  
-
----
-
-### 📌 Autor  
-Desenvolvido por **Diego Ribeiro**  
+📌 Este foi um projeto transformador, que mostra como a união de diferentes tecnologias de IA pode criar experiências de interação muito mais naturais e inteligentes. 
 
 ---
 
