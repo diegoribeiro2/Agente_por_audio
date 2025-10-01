@@ -1,71 +1,84 @@
-📖 Projeto – Agent de Análise de Dados com LangChain e OpenAI
-🔗 (em breve compartilho o repositório completo com código e documentação)
+# 📖 Projeto – Agent de Análise de Dados com LangChain e OpenAI  
 
-Este projeto é uma aplicação prática de inteligência artificial conversacional que permite analisar dados interativamente por meio de voz e texto.
-A ideia central é simples, mas poderosa: falar com seus dados e receber respostas em linguagem natural.
+![Descrição da Imagem](assets/agent-demo.png)
 
-🎯 Objetivo do Projeto
-O principal objetivo foi mostrar, na prática, como criar um Agent de análise de dados utilizando:
+---
 
-LangChain → para orquestração das interações.
+## 💡 Sobre o Projeto  
+Este projeto é uma aplicação prática de **Inteligência Artificial Conversacional** que permite **analisar dados de forma interativa** por meio de voz e texto.  
 
-Modelos da OpenAI → para entendimento e geração de linguagem.
+A ideia central é simples, mas poderosa: **falar com seus dados** e receber respostas em linguagem natural.  
 
-Whisper → para transcrição de áudio em texto.
+---
 
-Text-to-Speech (TTS) → para transformar respostas em áudio.
+## 🎯 Objetivo do Projeto  
+Construir, na prática, um **Agent de análise de dados** que integra diferentes recursos de IA:  
 
-Assim, construí um ciclo completo de interação: fala → texto → análise com LLM → áudio de resposta.
+- ⚡ **LangChain** → Orquestração das interações  
+- 🧠 **Modelos da OpenAI** → Entendimento e geração de linguagem  
+- 🎤 **Whisper** → Transcrição de áudio em texto  
+- 🔊 **Text-to-Speech (TTS)** → Transformação das respostas em áudio  
 
-🛠️ Tecnologias Utilizadas
+➡️ Assim, fechei o ciclo completo de interação: **fala → texto → análise com LLM → áudio de resposta**.  
 
-Python 3.11+
+---
 
-LangChain → Criação e gerenciamento do Agent.
+## 🛠️ Tecnologias Utilizadas  
+- **Python 3.11+**  
+- **LangChain**  
+- **OpenAI Whisper**  
+- **OpenAI GPT**  
+- **Text-to-Speech (TTS)**  
 
-OpenAI Whisper → Transcrição automática de áudio.
+---
 
-OpenAI GPT → Processamento e análise em linguagem natural.
+## 📚 Passo a Passo do Desenvolvimento  
 
-Text-to-Speech (TTS) → Conversão de texto em fala.
+1. **Configuração do Ambiente**  
+   - Criação de ambiente isolado com dependências organizadas.  
 
-📚 O que foi desenvolvido passo a passo
+2. **Captura de Áudio**  
+   - Implementação de atalhos no teclado para gravação de fala em tempo real.  
 
-Configuração do Ambiente
+3. **Transcrição com Whisper**  
+   - Conversão do áudio em texto com alta precisão.  
 
-Criação de um ambiente isolado com dependências organizadas.
+4. **Análise com LLM**  
+   - Integração do texto transcrito com o modelo da OpenAI via LangChain.  
 
-Captura de Áudio
+5. **Resposta em Áudio (TTS)**  
+   - Conversão da resposta do modelo em fala, completando o ciclo de interação.  
 
-Implementação de atalhos no teclado para gravar fala em tempo real.
+6. **Flexibilidade do Código**  
+   - Estrutura modular, facilmente adaptável para outros modelos e Agents.  
 
-Transcrição com Whisper
+---
 
-Conversão de áudio em texto de forma rápida e precisa.
+## 🚀 Possibilidades de Expansão  
+- Conectar o Agent a diferentes fontes de dados (CSV, PDF, APIs)  
+- Integrar modelos alternativos além da OpenAI  
+- Levar a aplicação para web ou mobile com experiências multimodais  
 
-Análise com LLM
+---
 
-Utilização do LangChain para conectar o texto transcrito ao modelo da OpenAI.
+## 🌟 Aprendizados  
+Com este projeto, aprimorei minhas habilidades em:  
 
-Resposta em Áudio (TTS)
+✅ Construção de **Agents conversacionais** com LangChain  
+✅ Integração de **modelos multimodais** (voz, texto e áudio)  
+✅ Criação de código reutilizável e flexível  
+✅ Conexão prática entre diferentes ferramentas de IA  
 
-Conversão da saída do modelo em voz, fechando o ciclo de interação.
+---
 
-Flexibilidade do Código
+📌 Este foi um projeto transformador, que mostra como a união de diferentes tecnologias de IA pode criar experiências de interação muito mais naturais e inteligentes.  
 
-Estrutura modular, permitindo integrar facilmente outros modelos ou estender o Agent para novas tarefas.
+---
 
-🚀 Possibilidades de Expansão
+### 📌 Autor  
+Desenvolvido por **Diego Ribeiro**  
 
-Conexão com diferentes fontes de dados (CSV, PDF, APIs).
+---
 
-Adaptação para outros modelos de linguagem além da OpenAI.
-
-Integração em aplicações web ou mobile para experiências multimodais.
-
-🌟 Aprendizados
-Com este projeto, aprendi e pratiquei:
-✅ Construção de Agents conversacionais com LangChain.
-✅ Uso de modelos multimodais (voz, texto e áudio).
-✅ Integração prática entre diferentes ferramentas de IA.
-✅ Estruturação de código reutilizável para projetos futuros.
+# 🏷️ Hashtags  
+#InteligênciaArtificial #LangChain #OpenAI #DataScience #VoiceAI  
