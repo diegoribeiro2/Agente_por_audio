@@ -1,13 +1,13 @@
 # 📖 Projeto – Agent de Análise de Dados com LangChain e OpenAI  
 
-![Agent por Áudio](./Agente%20por%20audio.png)
-
 ---
 
 ## 💡 Sobre o Projeto  
 Este projeto é uma aplicação prática de **Inteligência Artificial Conversacional** que permite **analisar dados de forma interativa** por meio de voz e texto.  
 
 A ideia central é simples, mas poderosa: **falar com seus dados** e receber respostas em linguagem natural.  
+
+![Agent por Áudio](./Agente%20por%20audio.png)
 
 ---
 
