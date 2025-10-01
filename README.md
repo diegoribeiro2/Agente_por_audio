@@ -1,6 +1,6 @@
 # 📖 Projeto – Agent de Análise de Dados com LangChain e OpenAI  
 
-![Agent por Áudio]("Agente por audio.png")
+![Agent por Áudio](./Agente%20por%20audio.png)
 
 ---
 
