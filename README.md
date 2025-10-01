@@ -72,8 +72,3 @@ Com este projeto, aprimorei minhas habilidades em:
 ---
 
 📌 Este foi um projeto transformador, que mostra como a união de diferentes tecnologias de IA pode criar experiências de interação muito mais naturais e inteligentes. 
-
----
-
-# 🏷️ Hashtags  
-#InteligênciaArtificial #LangChain #OpenAI #DataScience #VoiceAI  
